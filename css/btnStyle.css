@@ -1,0 +1,88 @@
+/*
+  BUTTONS : COMPARE - BUY NOW
+*/
+.btn {
+  text-decoration: none;
+  color: #231f20;
+  display: inline-block;
+  position: relative;
+  border: 1.5px solid #231f20;
+}
+.btn:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.button-1, .button-2, .pressedOut-1, .pressedOut-2, .botonToggle{
+  border-radius: 100em;
+}
+.pressedOut-1:before{
+  border-radius: 100em;
+  left: 0px;
+  top: 0px;
+  background-color: #f25449;
+}
+.pressedOut-2:before{
+  border-radius: 100em;
+  left: 0px;
+  top: 0px;
+  background-color: #f5e32f;
+}
+.button-1:before {
+  border-radius: 100em;
+  left: 3px;
+  top: 2px;
+  background-color: #f25449;
+}
+.button-2:before {
+  border-radius: 100em;
+  left: 3px;
+  top: 2px;
+  background-color: #f5e32f;
+}
+.botonToggle:before{
+  border-radius: 100em;
+  left: 3px;
+  top: 2px;
+  background-color: #B2B2B2;
+}
+.imgCompare{
+  width: 100%;
+  height: 100%;
+}
+
+
+/*
+  BUTTONS: COMPARE HERE
+*/
+#btnCompare{
+  margin-top: 5rem;
+  margin-right: 1rem;
+}
+.btnOpenModal {
+  cursor: pointer;
+  text-decoration: none;
+  color: #ffffff;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 1.5rem;
+}
+.btnOpenModal:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.button-3{
+  border-radius: 100em;
+  background-color: #f25449;
+}
+.button-3:hover{
+  background-color: #ffec8b;
+}
