@@ -239,7 +239,7 @@ $(function() {
     generatedDiv = '<div class="imodalItem" id="modalItem'+ idTile +'">'+
                     '<div class="demo-card-square mdl-cardiModal mdl-shadow--2dp">'+
                       '<div class="card-title">'+
-                        '<div>'+ table[idTile][3] +'</div>'+  /*IMAGE*/
+                        '<div class="iModalImg">'+ table[idTile][3] +'</div>'+  /*IMAGE*/
                         '<div class="btnClose">'+
                           '<span class="glyphicon glyphicon-remove"></span>'+
                         '</div>'+
